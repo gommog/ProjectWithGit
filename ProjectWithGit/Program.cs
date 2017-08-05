@@ -15,6 +15,7 @@ namespace ProjectWithGit
             Console.WriteLine("Please introduce yourself");
             string YourName = Console.ReadLine();
             Console.WriteLine("Hello {0}! How are you?", YourName);
+            Console.WriteLine("OK {0}, what we are going to do?", YourName);
             Console.ReadLine();
 
         }
