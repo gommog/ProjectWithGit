@@ -12,6 +12,9 @@ namespace ProjectWithGit
         {
 
             Console.WriteLine("Hi, let's restarted with Git and Control");
+            Console.WriteLine("Please introduce yourself");
+            string YourName = Console.ReadLine();
+            Console.WriteLine("Hello {0}! How are you?", YourName);
             Console.ReadLine();
 
         }
